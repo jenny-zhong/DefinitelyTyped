@@ -33,6 +33,7 @@ export interface PropTypes {
     value?: string;
     onError?: (status: string, clearSuggestion: () => void) => void;
     onSelect?: (address: string, placeID: string) => void;
+    countrySearch?: boolean
     searchOptions?: {
         bounds?: google.maps.LatLngBounds | google.maps.LatLngBoundsLiteral;
         componentRestrictions?: google.maps.GeocoderComponentRestrictions;
